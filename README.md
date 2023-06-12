@@ -1,6 +1,11 @@
 # Frontend workout tracker
 
 ## Instalação
-- Na pasta raíz do projeto utilize o comando: ```docker build -f./Dockerfile . -t remix/run``` (é necessário ter o docker instalado na máquina)
-- Após a build, utilize o comando para iniciar o container: ```docker run -p 3000:3000 -d remix/run```
-- Após o início, vá para 
+- Na pasta raíz do projeto utilize o comando: ```npm run dev```
+- Após a instalação das dependências, vá para ```http://localhost:3000/``` (Caso esta porta esteja ocupada, o servidor do Oxygen vai lhe enviar outra, fique atento!)
+- Na tela de login, você pode utilizar as credenciais:
+```
+username
+password
+```
+- Ou ir para a tela de Sign up e criar as suas!
