@@ -1,5 +1,5 @@
 export const workoutRequests = async () => {
-  const server = 'https://backend-workout-tracker-production.up.railway.app/';
+  const server = 'http://localhost:3001/';
 
   const response = await fetch(`${server}workout`, {
     method: 'GET',
