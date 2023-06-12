@@ -11,7 +11,7 @@ import {
 import type {Shop} from '@shopify/hydrogen/storefront-api-types';
 import styles from './styles/app.css';
 import tailwind from './styles/tailwind-build.css';
-import favicon from './public/favicon.svg';
+import favicon from '../public/favicon.svg';
 // import {Layout} from './components/Layout';
 // import Login from './components/LoginPage';
 
