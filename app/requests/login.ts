@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 export const loginRequest = async (username: string, password: string) => {
-  const server = 'http://localhost:3001/';
+  const server = 'https://backend-workout-tracker-production.up.railway.app/';
   console.log(server);
   const response = await fetch(`${server}login`, {
     body: JSON.stringify({username, password}),
